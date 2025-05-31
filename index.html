@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zekriya Gaming</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      background-color: #1e1e1e;
+      box-shadow: 0 2px 5px #000;
+    }
+
+    header img {
+      width: 400px; /* BIG BIG BIG */
+      height: auto;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      color: #e63946;
+      font-size: 2.5rem;
+      margin: 0.2rem 0;
+    }
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .game-card {
+      background-color: #1c1c1c;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+      transition: transform 0.3s;
+    }
+
+    .game-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .game-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .game-content {
+      padding: 1rem;
+    }
+
+    .game-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    .game-desc {
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+      color: #ccc;
+    }
+
+    .download-btn {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background-color: #e63946;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+
+    .download-btn:hover {
+      background-color: #ff4757;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background-color: #1e1e1e;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="3f522d070dbbd3223457d5519571af96-removebg-preview.png" alt="Zekriya Logo" />
+    <h1>𝓚𝓘𝓥𝓐</h1>
+    <p>FREE GAMES</p>
+  </header>
+
+  <section class="games">
+
+    <div class="game-card">
+      <img src="GTAV.webp" alt="Subway Surfers" />
+      <div class="game-content">
+        <div class="game-title">GTA V</div>
+        <div class="game-desc">FULL EXPERIENCE</div>
+        <a class="download-btn" href="https://limewire.com/d/yuPTd#zullxTRm4N">Download</a>
+      </div>
+    </div>
+
+    <div class="game-card">
+      <img src="SG_Screenshot_RLGL__1_.jpg" alt="Among Us" />
+      <div class="game-content">
+        <div class="game-title">SQUID GAME</div>
+        <div class="game-desc">ONLINE</div>
+        <a class="download-btn" href="https://limewire.com/d/sGzjS#U6HQeQF09U">Download</a>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    &copy; 2025 KIVA STORE All rights reserved.
+  </footer>
+</body>
+</html>
